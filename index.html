@@ -18,8 +18,8 @@
 </head>
 
 <body>
-    <div class="fixed-img"><img src="/images/image 78.svg" alt=""></div>
-    
+
+
     <!-- ---=============Header Section Start==========---- -->
     <header class="section-navbar">
         <section class="upper-header">
@@ -35,9 +35,8 @@
                         <h2> <i class="fa-solid fa-location-dot"></i> Store Locator</h2>
                         <h2>Resources</h2>
                         <h2> <i class="fa-solid fa-phone"></i> 1300 738 885</h2>
-                        <button class="top-header-btn">
-                            <i class="fa-solid fa-cart-shopping">
-                            </i>
+                        <button class="top-header-btnn">
+                            <i class="fa-solid fa-cart-shopping"></i>
                             <h2>Online Store</h2>
                         </button>
                     </div>
@@ -45,10 +44,10 @@
             </div>
         </section>
     </header>
-    
+
     <!-- lower-header-section -->
-    <header>
-        <nav class="navbar navbar-expand-lg navigation-wrap">
+    <header class="lower-header-section">
+        <nav class="navbar navbar-expand-lg navigation-wrap pb-4">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/header_novis.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -78,15 +77,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#faq"> Education</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#faq"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                        <li class="nav-item d-flex align-items-center">
+                            <a class="nav-link pt-4" href="#faq"> <i class="fa-solid fa-magnifying-glass"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    
+
     <!-- ---=============Header Section End==========---- -->
     <!-- ---=============Banner Section Start==========---- -->
     <section class="banner-section">
@@ -98,7 +97,7 @@
                         care facilities, rehabilitation providers and the home care community. With collaboration from
                         our manufacturing and distribution partners, our products and services enhance the lives of
                         thousands of people every day.</p>
-                    <button class="btn">About Novis</button>
+                    <button class="btnn">About Novis</button>
                 </div>
                 <div class="col-md-6 banner-slider">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -173,7 +172,7 @@
                     solutions.</p>
             </div>
         </div>
-        
+
     </section>
 
     <!-- ---=============Specialist Section End==========---- -->
@@ -184,7 +183,7 @@
                 <h1 class="common-heading">Our Key Services</h1>
             </div>
         </div>
-        <div class="container grid grid-three--cols"> <!-- review ke liye -->
+        <div class="container grid grid-three--cols">
             <div class="blue1">
                 <h1>Service & Repair</h1>
             </div>
@@ -195,7 +194,7 @@
                 <h1>Hire</h1>
             </div>
         </div>
-        
+
     </section>
     <!-- ---=============Services Section End==========---- -->
     <!-- ---=============Brand Section Start==========---- -->
@@ -243,18 +242,17 @@
                     <p>The Etac Prio wheelchair provides a high level of customisation, adaptability and care for users.
                         This tilt in space and reclining wheelchair allows for frequent repositioning and long term
                         seating.</p>
-                    <button class="btn">Learn more</button>
+                    <button class="btnn">Learn more</button>
                 </div>
                 <div class="featured-section-icon">
-                    <div class="left-icon"><a href="#"><i class="fa-solid fa-angle-left"></i></a></div>
-                    <div class="right-icon"><a href="#"><i class="fa-solid fa-angle-right"></i></a></div>
+                    <div class="icon-1"><a href="#"><i class="fa-solid fa-angle-left"></i></a></div>
+                    <div class="icon-1"><a href="#"><i class="fa-solid fa-angle-right"></i></a></div>
                 </div>
             </div>
         </div>
     </section>
     <!-- ---=============Featured Product End==========---- -->
     <!-- ---=============Catalogue section start ==========---- -->
-    <hr>
     <section class="section-catalogue">
         <div class="container">
             <div class="catalogue-heading">
@@ -267,7 +265,9 @@
                     </div>
                     <div class="catalogue-card-mid">
                         <h2 class="catalogue-img-title">Novis Branded Catalogue </h2>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <div class="catalog-icon-div">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
                     </div>
                     <h3>August 2022</h3>
                 </div>
@@ -276,8 +276,10 @@
                         <img src="/images/catalogue2.png" alt="">
                     </div>
                     <div class="catalogue-card-mid">
-                        <h2 class="catalogue-img-title">Pressure Injury Prevention Products Catalogue </h2>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <h2 class="catalogue-img-title">Pressure Injury Prevention</h2>
+                        <div class="catalog-icon-div">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
                     </div>
                     <h3>August 2022</h3>
                 </div>
@@ -287,7 +289,9 @@
                     </div>
                     <div class="catalogue-card-mid">
                         <h2 class="catalogue-img-title">Community Hire catalogue</h2>
-                        <i class="fa-solid fa-angle-right"></i>
+                        <div class="catalog-icon-div">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        </div>
                     </div>
                     <h3>August 2022</h3>
                 </div>
@@ -295,7 +299,6 @@
         </div>
     </section>
     <!-- ---=============Catalogue section End ==========---- -->
-    <hr>
 
     <!-- ---=============Nationality section Start ==========---- -->
     <section class="nationality-section">
@@ -307,9 +310,21 @@
                 <div class="nationality-section-desc">
                     <h1>Nationally supported by our trusted network</h1>
                     <p>Find your nearest retail location</p>
-                    <input type="text" placeholder="Enter postcode or suburb here">
-                    <input type="email" placeholder="Within 10km" class="input2">
-                    <button class="btn">Find</button>
+                    <div class="nationality-input-div">
+                        <input type="text" placeholder="Enter postcode or suburb here">
+                        <div class="dropdown">
+                            <button class="btnn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                WithIn 10KM
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                        <button class="btnn">Find</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -333,12 +348,11 @@
                         regularly exposed to pressure. We are determined to provide 24/7 vigilant care to patients and
                         physicians, from specialized mattresses to air cell cushions. We help you develop a better
                         understanding of pressure injury prevention.</p>
-                    <button class="btn">Register to attend</button>
+                    <button class="btnn">Register to attend</button>
                 </div>
             </div>
         </div>
     </section>
-    <hr>
     <!-- ---=============Webinar section End ==========---- -->
     <!-- ---=============Latest news section start ==========---- -->
     <section class="latest-news">
@@ -389,7 +403,7 @@
                 </div>
                 <div class="uptodate-email">
                     <input type="text" placeholder="Your email here">
-                    <button class="btn">Subscribe</button>
+                    <button class="btnn">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -444,7 +458,6 @@
             </div>
         </div>
     </section>
-    <hr>
     <!-- ---=============review section end ==========---- -->
     <!-- ---=============logo section start ==========---- -->
     <section class="logo-section">
@@ -583,7 +596,14 @@
         </section>
     </footer>
     <!-- ---=============Footer section end ==========---- -->
-
+    <!-- ---=============Facebook icon ==========---- -->
+    <div class="fb-icon">
+        <div class="fb">
+            <a href="www.facebook.com">
+                <img src="/images/image 78.svg" alt="">
+            </a>
+        </div>
+    </div>
 
 
     <script src="app.js"></script>
