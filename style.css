@@ -112,7 +112,7 @@ li {
   background-color: transparent;
   color: #01438a;
   cursor: pointer;
-  border: 2px solid #01438a;
+  outline: 2px solid #01438a;
   border-radius: 0.2rem;
 }
 .fb-icon {
